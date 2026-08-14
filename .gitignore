@@ -1,0 +1,29 @@
+.vscode/
+target/
+.idea/
+
+*.class
+*.log
+
+.DS_Store
+Thumbs.db
+# Maven
+target/
+
+# IDE
+.vscode/
+.idea/
+.project
+.classpath
+.settings/
+
+# Java
+*.class
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
