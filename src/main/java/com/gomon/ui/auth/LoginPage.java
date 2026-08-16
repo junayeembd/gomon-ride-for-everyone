@@ -10,6 +10,8 @@ import com.gomon.service.AuthenticationService;
 import com.gomon.session.SessionManager;
 import com.gomon.ui.user.UserDashboard;
 import com.gomon.ui.driver.DriverDashboard;
+import com.gomon.ui.superadmin.SuperAdminDashboard;
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -258,8 +260,8 @@ public class LoginPage extends JFrame {
                 break;
 
             case "SUPER_ADMIN":
-                JOptionPane.showMessageDialog(this,
-                        "Super Admin Dashboard");
+                SuperAdminDashboard sudashboard = new SuperAdminDashboard();
+                sudashboard.setVisible(true);
                 break;
 
             default:
